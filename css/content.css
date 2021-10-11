@@ -1,0 +1,75 @@
+.caruesele__wrapper {
+  height: 90px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.caruesele--left {
+  color: white;
+  margin: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 73px;
+  line-height: 70px;
+}
+
+.caruesele--left:hover {
+  background-color: gray;
+}
+
+.caruesele__imgs {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.caruesele__imgs__wrapper {
+  height: 85px;
+  width: 94%;
+  overflow: hidden;
+  position: relative;
+}
+
+.caruesele__img {
+  border: 2px solid #1b1b1b;
+  height: 65px;
+  margin: 12px 3px 0px 3px;
+}
+
+.caruesele__img:hover {
+  border: 2px solid wheat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.caruesele--right {
+  color: white;
+  margin: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 73px;
+  line-height: 70px;
+}
+
+.caruesele--right:hover {
+  background-color: gray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.checked {
+  border: 2px solid white;
+}
+/*# sourceMappingURL=contant.css.map */

@@ -1,0 +1,141 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"Pacifico";
+    background-color:#1f1f11;
+    background-image:url(/img/pattern.png);
+    padding-left:25px;
+    padding-right:25px
+}
+a,div,form,h1,h2,h3,h4,label,li,p,ul{
+    margin:0;
+    padding:0;
+    display:block;
+    box-sizing:border-box;
+}
+
+.caruesele__wrapper{
+    height:90px;
+    background-color:black;
+    border-radius:10px;
+    margin-top:78px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.caruesele--left{
+    color:white;
+    margin:8px;
+    padding-right:15px;
+    padding-left:15px;
+    height:73px;
+    line-height:70px;
+}
+
+.caruesele--left:hover{
+    background-color:gray;
+}
+
+.caruesele__imgs{
+    transition:all 0.7s;
+    display:flex;
+    position:absolute;
+    left:0;
+    top:0;
+}
+
+.caruesele__imgs__wrapper{
+    height:85px;
+    width:94%;
+    overflow:hidden;
+    position:relative;
+}
+
+.caruesele__img{
+    border:2px solid #1b1b1b;
+    height:65px;
+    margin:12px 3px 0px 3px;
+}
+
+.caruesele__img:hover{
+    border:2px solid wheat;
+    transition:0.5s;
+}
+
+.caruesele--right{
+    color:white;
+    margin:8px;
+    padding-right:15px;
+    padding-left:15px;
+    height:73px;
+    line-height:70px;
+}
+
+.caruesele--right:hover{
+    background-color:gray;
+    transition:0.5s;
+}
+
+.checked{
+    border:2px solid white;
+}
+
+.slider__wrapper{
+    height:497px;
+    background-color:black;
+    border-radius:10px;
+    margin-top:78px;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:100px;
+}
+
+.slider--left{
+    color:white;
+    margin:8px;
+    padding-right:15px;
+    padding-left:15px;
+    height:480px;
+    line-height:490px;
+    font-size:34px;
+}
+
+.slider--left:hover{
+    background-color:gray;
+}
+
+.slider__imgs{
+    border:2px solid #1b1b1b;
+    height:407px;
+    width:609px;
+    margin-top:45px;
+    background-image:url(../img/slider_img2/1.jpg);
+    background-repeat:no-repeat;
+    overflow:hidden;
+    background-size:cover;
+}
+
+.slider__img{
+    border:2px solid #1b1b1b;
+    height:407px;
+    margin-top:45px;
+}
+
+.slider__img:hover{
+    border:2px solid white;
+    transition:0.5s;
+}
+
+.slider--right{
+    color:white;
+    margin:8px;
+    padding-right:15px;
+    padding-left:15px;
+    height:480px;
+    line-height:490px;
+    font-size:34px;
+}
+
+.slider--right:hover{
+    background-color:gray;
+}
